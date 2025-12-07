@@ -1,0 +1,14 @@
+.heroWrapper {
+    position: relative;
+    min-height: 85vh; /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.gridWrapper {
+    padding: 4rem 1rem 8rem 1rem;
+}
