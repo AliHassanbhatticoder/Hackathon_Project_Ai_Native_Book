@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocusaurus=globalThis.webpackChunkdocusaurus||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Phase A Complete - The Engine is Ready","permalink":"/Hackathon_Project_Ai_Native_Book/blog/phase-a-complete","unlisted":false,"date":"2025-12-07T00:00:00.000Z"}]}')}}]);
