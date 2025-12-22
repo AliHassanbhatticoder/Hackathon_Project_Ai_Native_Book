@@ -1,3 +1,4 @@
+<!-- my-reserch-paper/specs/001-book-creation/quickstart.md -->
 # Quickstart Guide: AI-Generated Docusaurus Book
 
 This guide will help you quickly generate and deploy your Docusaurus book from source content.

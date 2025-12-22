@@ -1,3 +1,4 @@
+<!-- my-reserch-paper/specs/001-book-creation/data-model.md -->
 ## Data Model: AI-Generated Docusaurus Book
 
 ### 1. SourceContent

@@ -10,14 +10,24 @@ const config = {
   tagline: 'Spec-Driven Reusable Intelligence',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'http://localhost:3000',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  // -------------------------------------------------------------------------
+  // DEPLOYMENT CONFIG (UPDATED FOR YOUR NEW ACCOUNT)
+  // -------------------------------------------------------------------------
+  
+  // Aapka Domain (GitHub Pages url)
+  url: 'https://AliHassanbhatticoder.github.io', 
+  
+  // Aapka Repo Name (Slash start aur end mein zaroori hai)
+  baseUrl: '/Hackathon_Project_Ai_Native_Book/',
 
-  // GitHub pages deployment config.
-  organizationName: 'panaversity', // Your GitHub Org
-  projectName: 'ai-native-book', // Your Repo Name
+  // GitHub User & Repo Info
+  organizationName: 'AliHassanbhatticoder', // Aapka Naya Username
+  projectName: 'Hackathon_Project_Ai_Native_Book', // Aapka Repo Name
+  
+  deploymentBranch: 'gh-pages', // Woh branch jo website display karegi
+  trailingSlash: false, // GitHub Pages ke liye best practice
+
+  // -------------------------------------------------------------------------
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,7 +45,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Edit URL remove kar diya hai taake "Edit this page" ka link na dikhe (Optional)
           editUrl: undefined, 
         },
         blog: {
@@ -52,12 +61,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Social Card Image
       image: 'img/docusaurus-social-card.jpg',
       
       // --- 2. Navbar Configuration ---
       navbar: {
-        title: 'AI Native Dev', // Website ke top-left mein ye dikhega
+        title: 'AI Native Dev', 
         items: [
           {
             type: 'docSidebar',
@@ -67,53 +75,33 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/panaversity',
+            href: 'https://github.com/AliHassanbhatticoder/Hackathon_Project_Ai_Native_Book',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
 
-      // --- 3. Mega Footer Configuration ---
+      // --- 3. Footer Configuration ---
       footer: {
         style: 'light',
         links: [
           {
             title: 'Learn',
             items: [
-              { label: 'Introduction', to: '/docs/intro' },
-              { label: 'AI Assisted', to: '/docs/intro' },
-              { label: 'AI Native', to: '/docs/intro' },
+              { label: 'Introduction', to: '/docs/introduction' },
             ],
           },
           {
             title: 'Community',
             items: [
-              { label: 'Discord', href: 'https://discord.com' },
-              { label: 'Twitter', href: 'https://twitter.com' },
-              { label: 'GitHub', href: 'https://github.com' },
+              { label: 'GitHub', href: 'https://github.com/AliHassanbhatticoder' },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              { label: 'Blog', to: '/blog' },
-              { label: 'Panaversity', href: 'https://www.panaversity.org/' },
-              { label: 'Privacy Policy', to: '/' },
-            ],
-          },
-          {
-            title: 'Legal',
-            items: [
-              { label: 'Terms', to: '/' },
-              { label: 'License', to: '/' },
-            ]
-          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} AI Native Software Development. Built with Spec-Kit.`,
       },
 
-      // Code Highlight Theme
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
@@ -122,3 +110,4 @@ const config = {
 };
 
 module.exports = config;
+

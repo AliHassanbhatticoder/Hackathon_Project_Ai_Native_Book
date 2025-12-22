@@ -1,3 +1,4 @@
+<!-- my-reserch-paper/specs/001-book-creation/checklists/requirements.md -->
 # Specification Quality Checklist: AI-Generated Docusaurus Book
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
