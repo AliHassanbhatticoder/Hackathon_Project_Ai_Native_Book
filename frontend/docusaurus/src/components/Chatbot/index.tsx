@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Send, X, Bot, MessageSquare, ChevronDown, Paperclip } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const BOOK_BACKEND_URL = 'https://hackathonprojectainativebook-production.up.railway.app/';
+const BOOK_BACKEND_URL = 'https://hackathonprojectainativebook-production.up.railway.app';
 
 export default function CustomChat() {
   const [isOpen, setIsOpen] = useState(false);
